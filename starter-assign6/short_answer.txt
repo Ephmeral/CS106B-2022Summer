@@ -1,0 +1,30 @@
+Before submitting this file, make sure that there are no more TODO
+placeholders remaining in the file (and remove this comment too).
+
+Q1. Use the above encoding tree to decode the bit sequence `0101100011`.
+A1. MOONS
+
+Q2. Prepare a table for the above encoding tree that lists each character with its assigned bit sequence.
+Use your table to encode the string `"SONS"`.
+A2. 011100011
+
+Q3. Huffman codes obey the _prefix_ property: no character's encoded bit sequence is a prefix of any other.
+What feature of an encoding tree demonstrates that it obeys the prefix property?
+A3. 编码和解码是唯一的
+
+Q4. Flatten the encoding tree above on the right into its sequence of bits and sequence of characters.
+A4. 1101000
+
+Q5. Unflatten the sequences `110100100` and `FLERA` to reconstruct the original encoding tree.
+A5. TODO
+
+Q6. Construct a Huffman coding tree for the input `"BOOKKEEPER"`.
+A6. TODO
+
+Q7. A node in a Huffman coding tree has two non-null children or no children.
+Why does it not make sense for a node in a Huffman tree to have just one non-null child?
+A7. TODO
+
+Q8. Describe the difference in shape of a Huffman coding tree that will lead to significant
+savings for compression versus one that will achieve little to no compression.
+A8. TODO
